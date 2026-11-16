@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "imdd_reliquias",
+  "version": "${version}",
+  "name": "IMDD Relíquias",
+  "description": "Mod das 20 Relíquias únicas para Minecraft Fabric 1.21.4.",
+  "authors": ["IMDD"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.imdd.reliquias.ImddReliquiasMod"
+    ],
+    "client": [
+      "com.imdd.reliquias.ImddReliquiasClient"
+    ]
+  },
+  "mixins": [
+    "imdd_reliquias.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

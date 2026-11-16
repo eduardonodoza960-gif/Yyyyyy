@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.imdd.reliquias.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemEntityMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MagmaBlockMixin",
+    "ServerPlayerEntityMixin",
+    "BlockItemMixin"
+  ],
+  "client": [
+    "ArmorFeatureRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
